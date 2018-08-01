@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import matplotlib as mpl
 plt.style.use('dark_background')
 import click
 
@@ -25,7 +24,6 @@ def main(tests):
     plt.title('Class Grades')
 
     plt.show()
-
 
 if __name__ == '__main__':
     import doctest
