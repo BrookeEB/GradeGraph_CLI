@@ -12,3 +12,22 @@ def main(tests):
     """
     tests = [float(grade) for grade in tests.split()]
 
+
+    x = range(len(tests))
+    y = tests
+
+    plt.scatter(x, y)
+
+    plt.xlabel('Exams')
+
+    plt.ylabel('Grades')
+
+    plt.title('Class Grades')
+
+    plt.show()
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+    main()
